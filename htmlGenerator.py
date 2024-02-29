@@ -1,6 +1,12 @@
+from datetime import date
+
 class htmlGenerator :
     def __init__ (self) :
         pass
+
+    def getDate (self) :
+        return date.today
+    
 
     def generateHtmlContent (self) :
         #create html content
@@ -20,3 +26,4 @@ class htmlGenerator :
 
         #return html content
         return htmlContent
+    
